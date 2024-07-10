@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Postar Anúncio de Venda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-anuncios">
+  <div class="post-ad-container">
+    <form class="post-ad-form">
+      <h2>Postar uma doação</h2>
+      <div class="input-group">
+        <label for="nome-movel">Nome do movel</label>
+        <input type="text" id="nome-movel" name="nome-movel" required>
+      </div>
+      <div class="input-group">
+        <label for="descricao-movel">Descrição do movel</label>
+        <textarea id="descricao-movel" name="descricao-movel" rows="4" required></textarea>
+      </div>
+      <div class="input-group">
+        <label for="movel-imagem">Imagem do Produto</label>
+        <input type="file" id="movel-imagem" name="movel-imagem" accept="image/*" required>
+      </div>
+      <button type="submit">Postar Anúncio</button>
+    </form>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
